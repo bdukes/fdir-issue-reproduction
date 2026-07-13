@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "app": "node app.mjs",
+    "app:withoutBasePath": "node app.mjs --withoutBasePath",
+    "app:withoutGlob": "node app.mjs --withoutGlob",
+    "app:withoutContentDir": "node app.mjs --withoutContentDir",
+    "app:withComplexGlob": "node app.mjs --withComplexGlob"
   },
   "keywords": [],
   "author": "",
