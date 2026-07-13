@@ -1,0 +1,23 @@
+{
+  "name": "fdir-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "fdir": "^6.5.0",
+    "picomatch": "^4.0.5"
+  },
+  "devEngines": {
+    "runtime": {  	  
+      "name": "node",
+      "version": ">18.3.0"
+    }
+  }
+}
